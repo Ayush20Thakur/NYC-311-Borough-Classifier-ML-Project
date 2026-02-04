@@ -26,8 +26,8 @@ A machine learning web application that predicts which NYC borough (Manhattan, B
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ayush20Thakur/ML-Project.git
-cd ML-Project
+git clone https://github.com/Ayush20Thakur/NYC-311-Borough-Classifier-ML-Project.git
+cd NYC-311-Borough-Classifier-ML-Project
 ```
 
 2. Create a virtual environment:
@@ -75,7 +75,7 @@ streamlit run app.py
 ## 📁 Project Structure
 
 ```
-ML-Project/
+NYC-311-Borough-Classifier-ML-Project/
 ├── app.py                    # Main Streamlit application
 ├── my_bilstm_model.keras     # Trained BiLSTM model
 ├── tokenizer.pkl             # Tokenizer for text preprocessing
@@ -102,4 +102,3 @@ This project is open source and available under the MIT License.
 - NYC Open Data for 311 complaint dataset
 - TensorFlow and Keras teams
 - Streamlit community
-
